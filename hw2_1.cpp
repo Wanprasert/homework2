@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	string name;
+	int salary, sale, cp, tcp, total;
+	cout << " *********Homework 2*********" <<endl;
+	cout << " Enter Name : ";
+	cin >>name;
+	cout << " Enter Salary : ";
+	cin >>salary;
+	cout << " Enter Sale : ";
+	cin >>sale;
+	cout << " Enter Commission Percent: ";
+	cin >>cp;
+	tcp = cp*sale/100;
+	total = tcp+salary;
+	cout << " ----------output----------" <<endl;
+	cout << " Your Name = "<<name <<endl;
+	cout << " Total Revenue : "<<total <<" Baht" <<endl;
+	cout << " ---------------------------" <<endl;
+}
